@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Employee Hub</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+</head>
+
+<body>
+    <!-- Login Page -->
+    <section id="login-page">
+        <header>
+            <h1>Gaming Employee Hub</h1>
+        </header>
+        <div class="login-container">
+            <form>
+                <label for="username">Username/Email</label>
+                <input type="text" id="username" name="username" placeholder="Enter your username or email" required>
+
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+                <div>
+                    <input type="checkbox" id="rememberMe" name="rememberMe">
+                    <label for="rememberMe">Remember Me</label>
+                </div>
+
+                <button type="submit">Login</button>
+                <a href="#">Forgot Password?</a>
+                <a href="#">Sign Up</a>
+            </form>
+        </div>
+
+        <footer>
+            <img src="logo.png" alt="Company Logo">
+            <a href="#">Support/Help Desk</a>
+            <div class="social-media-links">
+                <a href="#">Twitter</a>
+                <a href="#">LinkedIn</a>
+                <a href="#">Facebook</a>
+            </div>
+        </footer>
+    </section>
+
+    <!-- Dashboard (After Login) -->
+    <section id="dashboard">
+        <nav class="top-nav">
+            <div class="profile-menu">
+                <img src="profile-pic.png" alt="Profile Picture">
+                <span>Username</span>
+                <div class="dropdown-menu">
+                    <a href="#">My Profile</a>
+                    <a href="#">Settings</a>
+                    <a href="#">Logout</a>
+                </div>
+            </div>
+            <div class="notifications">
+                <span>🔔</span> <!-- Bell icon -->
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search...">
+            </div>
+        </nav>
+
+        <aside class="sidebar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Task Manager</a></li>
+                <li><a href="#">Game Updates</a></li>
+                <li><a href="#">Performance</a></li>
+                <li><a href="#">Communication</a></li>
+                <li><a href="#">HR & Admin</a></li>
+                <li><a href="#">Knowledge Base</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Tech Support</a></li>
+                <li><a href="#">Settings</a></li>
+            </ul>
+        </aside>
+
+        <main class="main-content">
+            <div class="welcome-banner">
+                <h2>Welcome, [Employee's Name]</h2>
+            </div>
+
+            <div class="stats-tiles">
+                <div class="tile">Task Completion</div>
+                <div class="tile">Upcoming Deadlines</div>
+                <div class="tile">Leave Balance</div>
+                <div class="tile">Latest Announcements</div>
+            </div>
+
+            <div class="recent-projects">
+                <h3>Recent Game Projects</h3>
+                <ul>
+                    <li>Project 1 - Status: In Progress - Deadline: [Date]</li>
+                    <li>Project 2 - Status: Completed</li>
+                    <li>Project 3 - Status: Pending</li>
+                </ul>
+            </div>
+
+            <div class="recent-messages">
+                <h3>Recent Messages/Notifications</h3>
+                <ul>
+                    <li>Message 1 from [Sender]</li>
+                    <li>Message 2 from [Team]</li>
+                </ul>
+            </div>
+        </main>
+    </section>
+
+    <!-- Task Manager Page -->
+    <section id="task-manager">
+        <h2>Task Manager</h2>
+        <div class="task-sections">
+            <div class="active-tasks">
+                <h3>Active Tasks</h3>
+                <ul>
+                    <li>Task 1 - Due: [Date]</li>
+                    <li>Task 2 - Priority: High</li>
+                </ul>
+            </div>
+
+            <div class="kanban-board">
+                <h3>In Progress Projects</h3>
+                <div class="kanban">
+                    <div class="column">To Do</div>
+                    <div class="column">In Progress</div>
+                    <div class="column">Completed</div>
+                </div>
+            </div>
+
+            <div class="calendar-view">
+                <h3>Calendar View</h3>
+                <!-- Calendar integration or HTML structure -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer (Global Footer Across Pages) -->
+    <footer>
+        <nav class="footer-nav">
+            <a href="#">Help & Support</a>
+            <a href="#">FAQs</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+        </nav>
+        <p>&copy; 2024 Gaming Employee Hub. All rights reserved.</p>
+        <p>Version 1.0.0</p>
+    </footer>
+
+</body>
+
+</html>
